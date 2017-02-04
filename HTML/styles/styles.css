@@ -96,7 +96,7 @@ ul {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top:17%;
+	padding-top:10%;
 	padding-bottom:15%;
 	color:#e8e8e8;
 }
@@ -116,8 +116,28 @@ ul {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top:20%;
-	padding-bottom:10%;
+	padding-top:8%;
+	padding-bottom:12%;
+	color:#e8e8e8;
+}
+.importcont {
+	margin:0;
+	background-image: url("wall5.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:5%;
+	padding-bottom:11%;
+	color:#e8e8e8;
+}
+.diffcont {
+	margin:0;
+	background-image: url("wall6.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:5%;
+	padding-bottom:11%;
 	color:#e8e8e8;
 }
 p#lotitle{
@@ -133,4 +153,11 @@ img#logo {
 		font-size:50px;
 		font-family: GeoSans;
 		letter-spacing: 0.6em;
+}
+.ccont {
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
