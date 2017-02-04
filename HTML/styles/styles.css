@@ -1,7 +1,18 @@
+@font-face {
+	font-family: DelRom;
+	src: url(Delicious-Roman.otf);
+	format("otf");
+}
+@font-face {
+	font-family: GeoSans;
+	src: url(GeosansLight.ttf);
+	format("ttf");
+}
 body{
 	width:100%;
 	margin:auto;
 	background-color: #d9d9d5;
+	font-family: DelRom;
 }
 .container {
 		width: 90%;
@@ -11,17 +22,18 @@ body{
 	color:white;
 	background:black;
 	width: 100%;
-	height:100px;
 	top:0;
-	position:absolute;
 	z-index:100;
+	position: fixed; 
 }
 .logo {
+	margin:0
+	padding:0;
 	float: left;
-	font-size: 20px;
 	text-indent:10px;
+	vertical-align: center;
 }
-li{
+li.nodec{
 	list-style: none;
 	float:left;
 	margin-left:40px;
@@ -39,31 +51,86 @@ a {
 	font-size:25px;
 	float:right;
 }
+ul {
+	vertical-align: center;
+}
 .bcontent {
-	margin-top: 110px;
-	margin-left:10%;
-	margin-right:10%;
-
+	margin-top:95px;
 }
 #whatbody {
 	text-indent: 20px;
 	text-align:justify;
+	line-height: 40px;
+	font-size: 25px;
+	letter-spacing: 3px;
 }
 .whatsection {
 	padding-right:10px;
 	padding-left:10px;
-	border: 5px outset;
-	background-color: #f5f8f8;
-	font-family: "Ubuntu";
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-left: 10%;
+	margin-right:10%;
 }
 .statsection {
-	margin-top: 20px;
 	padding-right:10px;
 	padding-left:10px;
-	border: 5px outset;
-	background-color: #f5f8f8;
-	font-family: "Ubuntu";
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-left: 10%;
+	margin-right:10%;
 }
-p {
-	font-size:20px;
+.whatcont {
+	margin:0;
+	background-image: url("wall2.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:5%;
+	padding-bottom:16%;
+	color:#e8e8e8;
+}
+.statcont {
+	margin:0;
+	background-image: url("wall.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:17%;
+	padding-bottom:15%;
+	color:#e8e8e8;
+}
+.freedomcont {
+	margin:0;
+	background-image: url("wall3.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:8%;
+	padding-bottom:15%;
+	color:#e8e8e8;
+}
+.carecont {
+	margin:0;
+	background-image: url("wall4.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:20%;
+	padding-bottom:10%;
+	color:#e8e8e8;
+}
+p#lotitle{
+	font-size: 50px;
+	margin:0;
+	display:inline;
+}
+img#logo {
+	height: 40px;
+}
+#whattitle {
+		text-align: center;
+		font-size:50px;
+		font-family: GeoSans;
+		letter-spacing: 0.6em;
 }
