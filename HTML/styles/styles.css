@@ -1,163 +1,245 @@
 @font-face {
 	font-family: DelRom;
 	src: url(Delicious-Roman.otf);
-	format("otf");
+
 }
 @font-face {
 	font-family: GeoSans;
 	src: url(GeosansLight.ttf);
-	format("ttf");
 }
-body{
-	width:100%;
-	margin:auto;
-	background-color: #d9d9d5;
-	font-family: DelRom;
+body {
+	 width:100%;
+	 height:100%;
+	 padding:0;
+	 margin:0;
+	 background-image: url("../images/wallpaw.png");
+	 font-size: 24px;
 }
-.container {
-		width: 90%;
-		margin: 0 auto;
+html {
+	 width:100%;
+	 height:100%;
 }
-.header	{
+header {
+	background-color: black;
 	color:white;
-	background:black;
+	position:fixed;
 	width: 100%;
 	top:0;
-	z-index:100;
-	position: fixed; 
 }
 .logo {
-	margin:0
-	padding:0;
-	float: left;
-	text-indent:10px;
-	vertical-align: center;
-}
-li.nodec{
-	list-style: none;
 	float:left;
-	margin-left:40px;
-	padding
-	text-align: center;
 }
-a {
-	color:white;
-	text-decoration: none;
-}
-.nav{
-	margin-top:10px;
-	padding-top:0px;
-	align-content: center;
-	font-size:25px;
+nav {
 	float:right;
+	padding-top: 1%;
+	margin-right: 10px;
 }
-ul {
-	vertical-align: center;
-}
-.bcontent {
-	margin-top:95px;
-}
-#whatbody {
-	text-indent: 20px;
-	text-align:justify;
-	line-height: 40px;
-	font-size: 25px;
-	letter-spacing: 3px;
-}
-.whatsection {
-	padding-right:10px;
-	padding-left:10px;
-	padding-top: 10px;
-	padding-bottom:10px;
-	margin-left: 10%;
-	margin-right:10%;
-}
-.statsection {
-	padding-right:10px;
-	padding-left:10px;
-	padding-top: 10px;
-	padding-bottom:10px;
-	margin-left: 10%;
-	margin-right:10%;
-}
-.whatcont {
-	margin:0;
-	background-image: url("wall2.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:5%;
-	padding-bottom:16%;
-	color:#e8e8e8;
-}
-.statcont {
-	margin:0;
-	background-image: url("wall.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:10%;
-	padding-bottom:15%;
-	color:#e8e8e8;
-}
-.freedomcont {
-	margin:0;
-	background-image: url("wall3.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:8%;
-	padding-bottom:15%;
-	color:#e8e8e8;
-}
-.carecont {
-	margin:0;
-	background-image: url("wall4.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:8%;
-	padding-bottom:12%;
-	color:#e8e8e8;
-}
-.importcont {
-	margin:0;
-	background-image: url("wall5.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:5%;
-	padding-bottom:11%;
-	color:#e8e8e8;
-}
-.diffcont {
-	margin:0;
-	background-image: url("wall6.jpeg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top:5%;
-	padding-bottom:11%;
-	color:#e8e8e8;
-}
-p#lotitle{
-	font-size: 50px;
-	margin:0;
+.nodec {
+	list-style: none;
 	display:inline;
+	margin-left: 10px;
+}
+.nodecli {
+	list-style: none;
+	margin-left: 10px;
 }
 img#logo {
 	height: 40px;
 }
-#whattitle {
-		text-align: center;
-		font-size:50px;
-		font-family: GeoSans;
-		letter-spacing: 0.6em;
+li.nodec a {
+	text-decoration: none;
 }
-.ccont {
-	background-color: black;
-	color:white;
-	text-align: center;
+#rabimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+#lionimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+#dodoimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+#rabexpimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}#pigimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+#strayimg {
+	border:5px solid black;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+.bcontent {
+	padding-top: 11%;
+	margin-top: 1%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #735d39;
+	margin-bottom: 100px;
 	padding-bottom: 10px;
-	padding-top: 10px;
+
+}
+.rcontent {
+	padding-top: 15px;
+	margin-top: 11%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #735d39;
+	margin-bottom: 100px;
+	padding-bottom: 10px;
+
+}
+.whatcont {
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.freedomcont{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.diffcont{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.vrights{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.container{
+	text-align: justify;
+	line-height: 30px;
+}
+
+.articletitle{
+	text-align: center;
+	font-size: 60px;
+	font-family: GeoSans;
+	line-height: 100px;
+
+}
+#emphasis{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+
+.articlebody{
+	font-family: DelRom;
+	line-height: 50px;
+}
+
+
+.AnimalExp{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.AnimalEnt{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.WLife{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.Industrial{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.CompAnim{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;	
+}
+
+.Worki{
+	align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+footer {
+	background-image: url("../images/footerwall.png");
+	background-repeat: no-repeat;
+	min-height: 500px;
+	position: relative;
+	margin: 0;
+	bottom: 0;
+}
+footer.fcontent {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#DixOut{
+	text-align: center;
+	font-size: 60px;
+	font-family:DelRom;
+	letter-spacing:3px;
+}
+
+#Respect{
+	text-align: center;
+
+}
+
+#Allrights{
+	text-align: center;
+}
+
+.AR{
+		align-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
 }
