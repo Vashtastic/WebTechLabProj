@@ -1,0 +1,158 @@
+@font-face {
+	font-family: DelRom;
+	src: url(Delicious-Roman.otf);
+
+}
+@font-face {
+	font-family: GeoSans;
+	src: url(GeosansLight.ttf);
+}
+
+html{
+    height:100%;
+}
+body {
+	 width:100%;
+	 height:100%;
+	 padding:0;
+	 margin:0;
+	 font-size: 24px;
+}
+.AnimalEnt .articletitle {
+    background-image: url("wall7.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.WLife .articletitle {
+    background-image: url("wall8.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+.AnimalExp .articletitle{
+    background-image: url("wall9.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;   
+}
+
+.CompAnim .articletitle{
+    background-image: url("wall11.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;   
+}
+
+.Industrial .articletitle{
+   background-image: url("wall10.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px; 
+}
+.whatcont .articletitle {
+    background-image: url("wall.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.freedomcont .articletitle{
+    background-image: url("wall2.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Worki .articletitle{
+     background-image: url("wall12.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;   
+}
+
+.statcont .articletitle{
+    background-image: url("wall13.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;    
+}
+
+.resources .articletitle{
+    background-image: url("wall14.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;   
+}
+
+.diffcont .articletitle{
+    background-image: url("wall3.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;  
+}
+
+.vrights .articletitle{
+    background-image: url("wall4.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.rcontent{
+    margin-left:20%;
+    z-index:8;
+}
+
+.rcontent .articletitle{
+    background-image: url("wall15.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;   
+}
+
+.acontent{
+    margin-left:20%;
+    z-index:8;
+}
