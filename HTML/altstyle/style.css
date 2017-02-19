@@ -156,3 +156,73 @@ body {
     margin-left:20%;
     z-index:8;
 }
+
+#rabimg {
+    float:left;
+    margin-top: 300px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    height:200px;
+    border-radius:130px;
+    box-shadow: 1px 0px 10px #202020;
+}
+#lionimg {
+    margin-top:75px;
+    margin-bottom: auto;
+    float:right;
+    margin-left:10px;
+    margin-right: 50px;
+    height:200px;
+    border-radius:20px;
+    box-shadow: 1px 0px 10px #202020;
+}
+#dodoimg {
+    margin-top:45px;
+    margin-bottom: auto;
+    float:left;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding-left:10px;
+    height:200px;
+    border-radius:20px;
+    box-shadow: 1px 0px 10px #202020;
+}
+.articletitle{
+    font-family: GeoSans;
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+
+
+#rabexpimg{
+    margin-top:60px;
+    margin-bottom: auto;
+    float:right;
+    margin-left: 50px;
+    margin-right: 40px;
+    height:200px;
+    border-radius:20px;
+    box-shadow: 1px 0px 10px #202020;
+}
+
+#pigimg{
+    margin-top:60px;
+    margin-bottom: auto;
+    float:left;
+    margin-left: 50px;
+    margin-right: 40px;
+    height:200px;
+    border-radius:20px;
+    box-shadow: 1px 0px 10px #202020;
+}
+
+#strayimg{
+    margin-top:60px;
+    margin-bottom: auto;
+    float:right;
+    margin-left: 50px;
+    margin-right: 40px;
+    height:200px;
+    border-radius:20px;
+    box-shadow: 1px 0px 10px #202020;
+}
